@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing page</title>
+    <link rel="preconect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/elements.css" />
+    <link rel="stylesheet" href="assets/css/classes.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="close-menu"
+      role="button"
+    />
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#home">INÍCIO</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">introdução</a></li>
+            <li><a href="#grid-one">Resumo</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#grid-two">Dicas</a></li>
+            <li><a href="#pricing">Agenda</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Desenvolvimento web front-end</h2>
+          <p>
+            Traduzido do inglês-O desenvolvimento front-end da web
+             é o desenvolvimento da interface gráfica do usuário de
+              um site, por meio do uso de HTML, CSS e JavaScript,
+               para que os usuários possam visualizar e interagir
+                com aquele site.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS" />
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>O mercado de Front-end em números</h2>
+        <p>
+          11% até 2029
+É previsto que os cargos na área de tecnologia aumentem 11% até 2029
+        </p><br>
+        <p>
+          92%
+          A demanda por devs cresceu 92% no último ano
+        </p><br>
+        <p>
+          mais demandadas
+JavaScript e seus frameworks estão entre as tecnologias mais demandadas pelas empresas
+        </p><br>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="gris-main-heading">um breve resumo sobre</h2>
+        <p class="grid-description">Pincipais tecnologias</p>
+        <div class="grid">
+          <article>
+            <h3>HTML</h3>
+            <p>
+              Sigla para HyperText Markup Language — Linguagem de Marcação de Hipertexto —, o HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos
+            </p>
+          </article>
+          <article>
+            <h3>CSS</h3>
+            <p>
+              O Cascading Style Sheets (CSS) é uma "folha de estilo" composta por “camadas” e utilizada para definir a apresentação (aparência) em páginas da internet que adotam para o seu desenvolvimento linguagens de marcação (como XML, HTML e XHTML). O CSS define como serão exibidos os elementos contidos no código de uma página da internet e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento.
+            </p>
+          </article>
+          <article>
+            <h3>JavaScript</h3>
+            <p>
+              JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. — você pode apostar que o JavaScript provavelmente está envolvido. 
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">GALERIA</h2>
+        <p class="grid-description">Conforme você atualiza a página as fotos desta galeria são atualizadas automáticamente.</p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?=1"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?=2"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?=3"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?=4"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?=5"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?=6"
+              alt="random image from unsplash"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Minhas dicas de estudos</h2>
+        <p class="grid-description">Como estou fazendo para estudar e o que indico</p>
+        <div class="grid">
+          <article>
+            <h3>YOU TUBE</h3>
+            <p>
+              Existem muitos canais bons e que te entregam muito, 
+              nao há necessidade de comprar um curso logo de cara. 
+              É interessan tetestar e ver com qual didádica se identifica mais.
+              Sendo assim maratone bastante no You tube, tutoriais dicas de carreira
+              pod casts etc. 
+            </p>
+          </article>
+          <article>
+            <h3>D I O</h3>
+            A Digital Innovation One é uma empresa comprometida com 
+            o aprendizado e com o acesso grátis ao conhecimento, lá 
+            você encontra cursos do básico ao avançado sobre a maior 
+            parte das tecnologias mais usadas do mercado, além de bootcamps 
+            onde você já pode sair empregado.
+          </article>
+          <article>
+            <h3>Udemy</h3>
+            <p>
+              Caso voce não esteja podendo no momento contratar um 
+              curso mais caro, a Udemy oferece cursos muitas vezes 
+              por uma média de R$30,00 somente. Inclusive o curso 
+              que estou fazendo é por lá com o instrutor Luiz Otávio 
+              Miranda(
+                Curso de JavaScript e TypeScript do básico ao avançado).
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>MINHA AGENDA</h2>
+        <p>
+          Há alguns meses decidi me dedicar aos estudos e me aprofundar na stack Front-end, estou no momento fazendo alguns cursos pela Udemy, 
+          You tube sempre busco para tirar algumas dúvidas e procuro bastante também no Google. Percebi também neste tempo a importância do inglês 
+          então vez ou outra procuro algum tutorial para ir me familiarizando com o idioma ao mesmo tempo que com os comandos das linguagens de programação. 
+        </p>
+        <p>
+          Gostaria muito de conseguir algum trabalho no momento, pois acredito que com todas as experiências que consegui até aqui somaria bastante, 
+          que me ajudaria e muito no aprendizado e em estar concretizando essa minha vontade de estar mudando de carreira.  
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Disponível de segunda a sexta. 
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+              </tr>
+              <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+              </tr>
+              <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>esta landing page foi desenvolvida:</h2>
+          <p>
+           Através de um curso na Udemy do instrutor
+           Luiz Otávio Miranda. Fiz algumas adaptações
+            de textos e organizei de acordo com meu 
+            gosto, este formulário abaixo peguei a dica 
+            no canal da Rocketseat com a instrutora Jakeliny Gracielly. 
+            pode preencher... Vai ser um grande prazer responder seu e-mail.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img src="assets/img/main-bg.svg" alt="Logo de HTML, CSS e JS" />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Me mande uma mensagem...</legend>
+
+
+            <form action="https://formsubmit.co/webdslim@gmail.com"method="POST">
+              <div class="form-group">
+                <label for="first-name">Primeiro nome</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="Seu nome aqui"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="last-name">Sobrenome</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="Seu sobrenome"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Seu e-mail"
+                />
+              </div>
+
+              <div class="form-group full-width">
+                <label for="message">Mensagem</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10" 
+                  placeholder="Mensagem..."
+                ></textarea>
+              </div>
+
+              <div class="form-group full-width">
+                <button type="submit">Enviar mensagem</button>
+              </div>
+          </form>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p>
+        <a
+          rel="nofollow"
+          target="_blank"
+          href="https://www.linkedin.com/in/david-silva-de-lima-b92a62140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bx1gkmTvkTHa6qvgs3BVUSg%3D%3D"
+          >Feito com <span class="heart">❤</span> David Silva </a
+        >
+      </p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+  </body>
+</html>
